@@ -2,26 +2,26 @@ const ctx = document.getElementById('myChart');
 
 const data = {
     labels: [
-        'Apple iPhone 14',
-        'Apple iPhone 14 Plus',
-        'Apple iPhone 14 Pro',
-        'Apple iPhone 14 Pro Max',
-        'Apple iPhone SE (2022)',
-        'Google Pixel 6a',
-        'Google Pixel 7',
-        'Google Pixel 7 Pro',
-        'Google Pixel 7a',
-        'Samsung Galaxy A34 5G',
-        'Samsung Galaxy A54 5G',
-        'Samsung Galaxy S23',
-        'Samsung Galaxy S23 Ultra',
-        'Samsung Galaxy S23+',
-        'Samsung Galaxy Z Flip4',
-        'Samsung Galaxy Z Fold4',
+        'i14',
+        'i14 Plus',
+        'i14 Pro',
+        'i14 Pro Max',
+        'iSE (2022)',
+        'P6a',
+        'P7',
+        'P7 Pro',
+        'P7a',
+        'Galaxy A34 5G',
+        'Galaxy A54 5G',
+        'S23',
+        'S23 Ultra',
+        'S23+',
+        'Z Flip4',
+        'Z Fold4',
     ],
     datasets: [
         {
-            label: 'DCD',
+            label: 'DCD%',
             data: [0, 0, 0, 0, 0, 100, 100, 100, 100, 0, 0, 0, 0, 0, 12, 0],
             // fill: true,
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -32,7 +32,7 @@ const data = {
             // pointHoverBorderColor: 'rgb(255, 99, 132)'
         },
         {
-            label: 'CB',
+            label: 'CB%',
             data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 100, 25, 0, 0, 17, 0],
             // fill: true,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
@@ -43,7 +43,7 @@ const data = {
             // pointHoverBorderColor: 'rgb(54, 162, 235)',
         },
         {
-            label: 'TIB',
+            label: 'TIB%',
             data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 46, 0, 0, 71, 0],
             // fill: true,
             backgroundColor: 'rgba(255, 206, 86, 0.2)',
@@ -54,7 +54,7 @@ const data = {
             // pointHoverBorderColor: 'rgb(255, 206, 86)',
         },
         {
-            label: 'GC',
+            label: 'GC%',
             data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 0,],
             // fill: true,
             backgroundColor: 'rgba(75, 192, 192, 0.2)',
@@ -94,4 +94,3 @@ new Chart(ctx, {
         }
     }
 });
-;
